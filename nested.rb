@@ -88,7 +88,7 @@ def adding_matz
     }
 
 programmer_hash.merge(:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]})
-
+    
 
 end
 
@@ -111,6 +111,14 @@ def changing_alan
         :languages => ["C"]
       }
     }
+
+programmer_hash =
+{
+        :grace_hopper => {
+          :known_for => "COBOL",
+          x:languages => ["C"]
+        }
+     }
 
   end
 
